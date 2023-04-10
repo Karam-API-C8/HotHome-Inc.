@@ -1,0 +1,59 @@
+html,body{
+	padding:0;
+	margin: 0;
+	height: 100%;
+}
+#background{
+	background-color: black;
+	background-image: url(../images/bgi.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+
+}
+
+
+
+#inputContainer button:hover{
+	cursor: pointer;
+}
+
+#loginContainer * {
+	color:#fff;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+#loginContainer{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1024px;
+}
+#inputContainer{
+	width: 400px;
+	padding: 45px;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+#inputContainer h2{
+	text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+	display: block;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #000000;
+	height: 27px;
+
+	height: 200px;
+}

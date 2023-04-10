@@ -1,0 +1,92 @@
+	body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin: 10px 0;
+		}
+
+		form {
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			padding: 20px;
+			width: 400px;
+		}
+
+		input[type="text"], input[type="email"], input[type="password"] {
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			box-sizing: border-box;
+			margin: 10px 0;
+			padding: 12px 20px;
+			width: 100%;
+		}
+
+		button[type="submit"] {
+			background-color: #e50914;
+			border: none;
+			border-radius: 3px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			color: #fff;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 10px;
+			padding: 15px 20px;
+			text-align: center;
+			transition: all 0.3s ease;
+			width: 100%;
+		}
+
+		button[type="submit"]:hover {
+			background-color: #f40612;
+		}
+
+		.hasAccount {
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		.hasAccount span {
+			color: #666;
+			font-size: 14px;
+		}
+
+		.hasAccount span a {
+			color: #000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		.hasAccount span a:hover {
+			text-decoration: underline;
+		}
+
+		#background {
+			background: url("assets/images/bg.jpg") no-repeat center center fixed;
+			background-size: cover;
+			height: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: -1;
+		}
+
+		#loginContainer {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		#inputContainer {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin-top: 50px;
+		}

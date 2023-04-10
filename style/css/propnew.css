@@ -1,0 +1,92 @@
+/* Set the font family and background color of the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Set the font size and color of the property title */
+h1 {
+  font-size: 28px;
+  color: #07d159;
+}
+
+/* Set the font size and color of the property description */
+p {
+  font-size: 18px;
+  color: #333;
+}
+
+#mainContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#topContainer {
+  background-color: #ffffff;
+  padding: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+
+/* Set the background color and padding of the book now button */
+.bookNowButton {
+
+  background-color: #07d159;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+/* Set the hover effect of the book now button */
+.bookNowButton:hover {
+  background-color: #06a04c;
+  cursor: pointer;
+}
+
+/* Set the height and width of the property images */
+.gridViewItem {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* Set the background color and padding of the navigation bar */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+.navItem.logo {
+  font-weight: bold;
+}
+
+/* Style the navigation items */
+.group {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  margin-right: 20px;
+}
+
+.navItem:last-child {
+  margin-right: 0;
+}
+
+.navItemLink {
+  color: #07d159;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.navItemLink:hover {
+  color: #333;
+}
+
